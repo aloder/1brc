@@ -1,0 +1,46 @@
+# Python's byte code
+*.pyc
+
+# Visual Studio Code
+.vscode
+.factorypath
+
+# PyCharm
+.idea
+
+# OSX
+.DS_Store
+
+# Measurements
+measurements*.txt
+
+# DuckDB files
+*.ddb
+
+# Files for comparing results
+duckdb.txt
+polars.txt
+pypy.txt
+python.txt
+
+# Testing and Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+.tox/
+.nox/
+
+# Virtual environments
+.venv/
+venv/
+.env/
+env/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Claude Code
+.claude/*
